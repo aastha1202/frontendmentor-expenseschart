@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github repository](https://github.com/aastha1202/frontendmentor-expenseschart)
+- Live Site URL: [Github pages](https://aastha1202.github.io/frontendmentor-expenseschart/)
 
 ## My process
 
