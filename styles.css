@@ -1,0 +1,139 @@
+body {
+    background-color: hsl(27, 66%, 92%);
+
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+    width: 37%;
+    margin: 50px auto;
+    padding: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 33px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 20px;
+    color: hsl(33, 100%, 98%);
+    ;
+    font-family: 'DM Sans', sans-serif;
+    height: 100px;
+    align-items: center;
+}
+
+.tags h5 {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.tags h1 {
+    font-size: 2rem;
+    margin-top: 4px;
+}
+
+.tags {
+    padding: 0px;
+}
+
+#charts {
+    background-color: hsl(33, 100%, 98%);
+    border-radius: 20px;
+    margin-top: 20px;
+    font-family: 'DM Sans', sans-serif;
+    padding: 20px;
+}
+
+.bars {
+    background-color: hsl(10, 79%, 65%);
+    width: 10%;
+    height: 12px;
+    border-radius: 9px;
+}
+
+
+.barCharts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.days {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.days p {
+    width: 10%;
+    text-align: center;
+    color: hsl(28, 10%, 53%);
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#charts h1,
+#charts h5 {
+    color: hsl(25, 47%, 15%);
+}
+
+.total p {
+    margin-bottom: 4px;
+    color: hsl(28, 10%, 53%);
+}
+
+.total h1 {
+    font-size: 3rem;
+    margin-top: 0px;
+}
+
+.lastmonth {
+    margin-top: 20px;
+}
+
+.lastmonth p {
+    margin-top: 0;
+    color: hsl(28, 10%, 53%);
+
+}
+
+.lastmonth h5 {
+    margin-bottom: 3px;
+    font-size: 1rem;
+    text-align: end;
+}
+
+.spacer {
+    height: 1px;
+    background-color: hsl(27, 66%, 92%);
+}
+
+.heading h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 80px;
+    margin-top: 0;
+}
+
+.display {
+    width: 100%;
+    color: white;
+    border-radius: 6px;
+    background-color: hsl(25, 47%, 15%);
+    position: relative;
+    top: -64px;
+    text-align: center;
+    padding: 10px 4px;
+}
+
+
+.bars:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}

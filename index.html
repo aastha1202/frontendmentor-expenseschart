@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Expenses chart component</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+ @media (max-width:500px) {
+  .container
+  {
+    width: 100%;
+  }
+   #header
+   {
+     border-radius: 12px;
+   }
+   #charts
+   {
+    border-radius: 12px;  
+   }
+   .bars
+   {
+    border-radius: 4px;
+   }
+   .display
+   {
+     font-size: 0.8rem;
+   }
+ }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <section id="header">
+      <div class="tags">
+      <h5>My balance</h5>
+      <h1>$921.48</h1>
+    </div>
+      <svg width="72" height="48" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#382314" cx="48" cy="24" r="24"/><circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23"/></g></svg>
+    
+    </section>
+    <section id="charts">
+       <div class="heading">
+       <h1>Spending - Last 7 days</h1>
+      </div>
+      <!-- <div class="display"><p>text</p></div> -->
+      <div class="barCharts">
+        <div class="bars"  id="mon">
+          <p class="text"></p>
+        </div>  
+        <div class="bars" id="tue">
+          <p class="text1"></p>
+        </div>
+        <div class="bars" id="wed">
+          <p class="text2"></p>
+        </div>
+        <div class="bars" id="thu">
+          <p class="text3"></p>
+        </div>
+        <div class="bars" id="fri">
+          <p class="text4"></p>
+        </div>
+        <div class="bars" id="sat">
+          <p class="text5"></p>
+        </div>
+        <div class="bars" id="sun">
+          <p class="text6"></p>
+        </div>
+      </div>
+      <div class="days">
+        <p>mon</p>
+        <p>tue</p>
+        <p>wed</p>
+        <p>thu</p>
+        <p>fri</p>
+        <p>sat</p>
+        <p>sun</p>
+      </div>
+       <div class="spacer"></div>
+       <div class="footer">
+        <div class="total">
+       <p>Total this month</p>
+       <h1 >$478.33</h1>
+      </div>
+      <div class="lastmonth">
+       <h5>+2.4%</h5>
+       <p>from last month</p>
+      </div>
+      </div>
+
+    </section>
+
+
+  </div>
+
+    
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Aastha</a>.
+  </div>
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
